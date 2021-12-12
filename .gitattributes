@@ -1,0 +1,2 @@
+data/THUCNews/cnews.train.txt filter=lfs diff=lfs merge=lfs -text
+data/THUCNews/eda_cnews.train.txt filter=lfs diff=lfs merge=lfs -text

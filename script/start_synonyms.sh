@@ -1,0 +1,1 @@
+nohup python -u synonyms_service.py > synonyms_service.log 2>&1 &

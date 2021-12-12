@@ -1,0 +1,1 @@
+ps -ef|grep "synonyms_service.py"|grep -v grep|awk '{print $2}'|xargs kill
