@@ -48,7 +48,7 @@ nohup python -u aug_for_file.py \
 - do_eval：是否验证
 - do_test：是否测试
 - do_predict：是否预测
-在```main.py```里面是主运行函数，根据不同的数据可能需要修改data_name以及model_name，下面是一些结果：
+在```main.py```里面是主运行函数，根据不同的数据可能需要修改data_name以及model_name，下面是一些结果：<br>
 |  模型（biltm）   | accuracy  | precision | recall| macro_f1|
 |  ----  | ----  |----  |----  |----  |
 | 基于字  | 0.8992 |0.9033|    0.8992 |   0.8943|
