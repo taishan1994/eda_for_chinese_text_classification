@@ -1,5 +1,6 @@
 # eda_for_chinese_text_classification
-基于EDA进行中文文本分类
+基于EDA进行中文文本分类<br>
+<a href="https://arxiv.org/abs/1901.11196">EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks</a>
 
 # 依赖
 ```
