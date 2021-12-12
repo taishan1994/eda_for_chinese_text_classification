@@ -30,6 +30,7 @@ synonyms
 - num_aug用于得到增强后的句子数，比如num_aug=4，那么每条数据返回的数目就是4+1（原始文本）=5。
 - replace_ratio、insert_ratio、swap_ratio、delete_prob如果分别设置为0.0，那么表示不使用该项进行数据增强。ratio表示操作的词数占句子长度的比例，比如句子长度是256，replace_ratio=0.3，那么随机替换的词数是256×0.3。prob表示每个词被删除的概率。
 - 为了加速增强的速度，使用了多进程的方式，具体可看代码。
+
 （3）生成数据增强文件：```sh run.sh```。
 ```
 nohup python -u aug_for_file.py \
