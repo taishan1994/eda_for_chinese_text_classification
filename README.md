@@ -50,7 +50,7 @@ nohup python -u aug_for_file.py \
 - do_predict：是否预测
 在```main.py```里面是主运行函数，根据不同的数据可能需要修改data_name以及model_name，下面是一些结果：<br>
 |  模型（biltm）   | accuracy  | precision | recall| macro_f1|
-|  ----  | ----  |----  |----  |----  |
+|  ------------  | ------------  |------------  |------------  |------------  |
 | 基于字  | 0.8992 |0.9033|    0.8992 |   0.8943|
 | 基于词（不过滤停止词）  | 0.8372 |0.8440  |  0.8372 |   0.8137 |
 |基于词（过滤停止词）|0.8536|0.8579  |  0.8536  |  0.8408|
@@ -74,6 +74,8 @@ cnews.word.vocab.txt：不使用停止词后得到的vocab<br>
 6、转译：中译英-英译中；<br>
 7、训练生成模型，根据生成模型生成样本；<br>
 等等等。<br>
+针对于英文的：https://github.com/makcedward/nlpaug<br>
+可参考其编写中文的增强代码。
 
 # 参考
 > EDA的实现参考：https://github.com/zhanlaoban/EDA_NLP_for_Chinese/
